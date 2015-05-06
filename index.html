@@ -11,10 +11,43 @@
 		<script src="js/jquery.min.js"></script>
 		<!-- Angular -->
 		<script src="js/angular.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
-			
+			<div class="app-title">
+				Zakat Calculation App
+			</div>
+			<h4 class="text-center">Pilih Jenis Zakat</h4>
+			<div ng-view></div>
+			<div class="app-icon">
+				<ul>
+					<li>
+						<button class="btn-app btn-medium" type="button">
+							<div class="icon-btn"><img src="images/love.png"></div> 
+							<span class="btn-text">Zakat Profesi</span>
+						</button>
+					</li>
+					<li>
+						<button class="btn-app btn-medium" type="button">
+							<div class="icon-btn"><img src="images/love.png"></div> 
+							<span class="btn-text">Zakat Bisnis/Perdagangan</span>
+						</button>
+					</li>
+					<li>
+						<button class="btn-app btn-medium" type="button">
+							<div class="icon-btn"><img src="images/love.png"></div> 
+							<span class="btn-text">Zakat Tersimpan 1 Tahun</span>
+						</button>
+					</li>
+					<li>
+						<button class="btn-app btn-medium" type="button">
+							<div class="icon-btn"><img src="images/love.png"></div> 
+							<span class="btn-text">Perhitungan Hisab</span>
+						</button>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</body>
 </html>
